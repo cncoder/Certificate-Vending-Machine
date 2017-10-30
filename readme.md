@@ -12,12 +12,14 @@ For some of the IoT device has been manufactured, it may not be pre-installed in
 
 ### Implementation Methodology
 
+![](https://github.com/cncoder/cvm/images/architecture.png)
+
 1)	When IoT device is requesting access to IoT platform, it triggers a certificate application to CVM Server
 2)	After receiving the request, EC2 accesses the Device DB check request legitimacy
 3)	CVM Server make API call to request IoT platform to assign a new device certificate signed by IoT platform CA.
 4)	IoT platform to generate device certificate, and the current certificate ID for the current corresponding IoT device corresponding to the device certificate. And reply it back to CVM server.
-5)	Attached to the corresponding Thing Name (product attributes) and Policy (permissions) to device certificate by looking for DynamoDB in the pre-created correspondence, according to the product serial number, for the current certificate attached to the corresponding Thing Name (product attributes) and Policy (permissions)
-6)	Update all the associated information of the current device to DynamoDB's association table
+5)	Attached to the corresponding Thing Name (product attributes) and Policy (permissions) to device certificate by looking for MySQL in the pre-created correspondence, according to the product serial number, for the current certificate attached to the corresponding Thing Name (product attributes) and Policy (permissions)
+6)	Update all the associated information of the current device to MySQL's association table
 7)	CVM returns the certificate to the IoT devices
 
 
