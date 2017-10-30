@@ -12,7 +12,7 @@ For some of the IoT device has been manufactured, it may not be pre-installed in
 
 ### Implementation Methodology
 
-![](https://github.com/cncoder/cvm/images/architecture.png)
+![](https://raw.githubusercontent.com/cncoder/cvm/master/images/architecture.png)
 
 1)	When IoT device is requesting access to IoT platform, it triggers a certificate application to CVM Server
 2)	After receiving the request, EC2 accesses the Device DB check request legitimacy
