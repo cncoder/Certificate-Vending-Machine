@@ -1,11 +1,11 @@
 var mysql = require('mysql');
 
 var pool = mysql.createPool({
-    host: '423423',
+    host: 'Please input your mysql service link',
     port: 3306,
-    database: 'rwe',
-    user: 'rwe',
-    password: '432423'
+    database: 'XXXXXX',
+    user: 'Input your username',
+    password: 'Input your password'
 });
 
 module.exports = pool;

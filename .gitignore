@@ -1,0 +1,14 @@
+# Javascript:
+node_modules
+
+# My configurations:
+db.ini
+deploy_key_rsa
+
+#credentials
+cert
+*.key
+*.cert
+*.config
+*.pem
+*.crt

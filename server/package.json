@@ -4,11 +4,12 @@
     "aws-sdk": "^2.104.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
+    "moment": "^2.19.1",
     "multer": "^1.3.0",
     "mysql": "^2.14.1",
     "request": "^2.81.0"
   },
-  "name": "cvmtest",
+  "name": "CVMService",
   "version": "0.1.0",
   "description": "certification vending machine build up and test",
   "main": "app.js",

@@ -1,7 +1,7 @@
 var cfg = require('./config');
 var createcertfile = require('./createcertfile');
 
-var applycert = function(accesstoken,serialNum){
+var applycert = function(accessToken,seriaNum){
 
     var request = require('request');
 
@@ -16,7 +16,7 @@ var applycert = function(accesstoken,serialNum){
         url: cfg.apigwlink,
         method: 'POST',
         headers: headers,
-        form: {'accesstoken': accesstoken, 'serialNum': serialNum}
+        form: {'accessToken': accessToken, 'seriaNum': seriaNum}
     }
 
     // Start the request
