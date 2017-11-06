@@ -23,4 +23,4 @@ For some of the IoT device has been manufactured, it may not be pre-installed in
 7)	CVM returns the certificate to the IoT devices
 
 
-MIT license.
+![Apache 2.0 license.](https://github.com/cncoder/Certificate-Vending-Machine/blob/master/LICENSE)
